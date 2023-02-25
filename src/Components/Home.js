@@ -151,7 +151,7 @@ export const Home = (props) => {
         <>
             <Navbar user={user} totalProducts={totalProducts}/>           
             <br></br>
-            <div className='container-fluid filter-products-main-box'>
+            <div className='container-fluid filter-products-main-box' style={{backgroundColor: "red"}}>
                 <div className='filter-box'>
                     <h6>Filter by category</h6>
                     {spans.map((individualSpan,index)=>(
